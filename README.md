@@ -18,7 +18,7 @@ The EPUB 3 format represents a significant leap forward in the production of acc
 
 But enhancements alone don't make ebooks accessible. The creation of accessible content requires due diligence both in production and quality assurance processes. To aid in the understanding and creation of accessible content, the IDPF is both producing guidelines to help publishers and consolidating on this page links to useful external production resources.
 
-Overview on Accessible ebooks from [Benetech](www.benetech.org) delivered for [All Children Reading Book Boost Access] Challenge(https://allchildrenreading.org/challenge/book-boost-access-challenge/)
+Overview on Accessible ebooks from [Benetech](www.benetech.org) delivered for [All Children Reading Book Boost Access Challenge](https://allchildrenreading.org/challenge/book-boost-access-challenge/)
 + [December 5, 2018 webinar video](https://www.youtube.com/watch?v=D47t8UDOXXw&t=24s)
 + [Download presentation from webinar here](http://allchildrenreading.org/wordpress/wp-content/uploads/2017/12/Guidelines-For-Accessible-eBooks-EPUB-Accessibility-1.pptx)
 
