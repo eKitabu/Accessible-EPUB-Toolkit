@@ -23,7 +23,7 @@ Overview on Accessible ebooks from [Benetech](www.benetech.org) delivered for [A
 + [Download presentation from webinar here](http://allchildrenreading.org/wordpress/wp-content/uploads/2017/12/Guidelines-For-Accessible-eBooks-EPUB-Accessibility-1.pptx)
 
 #### General Production Guidelines
-+ [DAISY Accessible Publishing Knowledge Base] (http://kb.daisy.org/publishing/)
++ [DAISY Accessible Publishing Knowledge Base](http://kb.daisy.org/publishing/)
 + [EPUB 3 Accessibility Guidelines](https://idpf.github.io/a11y-guidelines/)
 + [QA Checklist Generator](http://www.idpf.org/accessibility/guidelines/content/qa/checklist-generator.php)
 + [Accessible EPUB 3 (O'Reilly)](http://shop.oreilly.com/product/0636920025283.do)
