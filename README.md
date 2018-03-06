@@ -5,7 +5,7 @@ English Pupil's Book 1.pdf and English Teachers Guide 1.pdf are samples for pres
 
 
 ### Overview of EPUB Accessibility
-From the [IDPF's Guide to Accessible EPUB](http://idpf.org/a11y)
+Note: the following document is based on the [IDPF's Guide to Accessible EPUB](http://idpf.org/a11y) with incremental updates by the eKitabu team. This document will ultimately serve as the standards documentation for the toolkit.
 
 The EPUB 3 format represents a significant leap forward in the production of accessible ebooks, incorporating all of the following advances:
 
