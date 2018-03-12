@@ -36,7 +36,9 @@ Benetech webinar on accessible images delivered for [All Children Reading Book B
 
 + [DIAGRAM Production Standards](http://diagramcenter.org/standards-and-practices.html)
 + [Accessible Images Sample Book](http://diagramcenter.org/standards-and-practices/accessible-image-sample-book.html)
++ [Download Benetech's Accessible Image Sample Book](https://github.com/benetech/AccessibleImageSampleBook/)
 + [HTML5: Techniques for providing useful text alternatives](https://www.w3.org/TR/html-alt-techniques/)
+
 
 #### Discovery Metadata
 + [ONIX Code List 196](http://www.editeur.org/files/ONIX%20for%20books%20-%20code%20lists/ONIX_BookProduct_Codelists_Issue_40.html)
