@@ -52,8 +52,7 @@
     <item id="image208" href="images/img08.jpg" media-type="image/jpeg"/>
     <item id="iBcover" href="images/bcover.jpg" media-type="image/jpeg"/>
 
-    <item id="css" href="stylesheet.css" media-type="text/css"/>
-    <item id="css2" href="styles/css.css" media-type="text/css"/>
+    <item id="css" href="styles/stylesheet.css" media-type="text/css"/>
     <item id="ncx" href="toc.ncx" media-type="application/x-dtbncx+xml"/>
 
   </manifest>
