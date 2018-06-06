@@ -2,13 +2,13 @@
 <package xmlns="http://www.idpf.org/2007/opf" version="3.0" unique-identifier="uuid_id" prefix="ibooks: http://vocabulary.itunes.apple.com/rdf/ibooks/vocabulary-extensions-1.0/">
   <metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:opf="http://www.idpf.org/2007/opf" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dc="http://purl.org/dc/elements/1.1/">
     <dc:title>Mata and I</dc:title>
-    <dc:creator id="creator01">N/A</dc:creator>
+    <dc:creator id="creator01">Tusome Early Literacy Programme</dc:creator>
     <meta property="role" refines="#creator01">aut</meta>
-    <meta property="file-as" refines="#creator01">N/A</meta>
+    <meta property="file-as" refines="#creator01">Tusome Early Literacy Programme</meta>
     <dc:language>en-us</dc:language>
     <dc:identifier id="uuid_id">N/A</dc:identifier>
     <meta property="identifier-type" refines="#uuid_id">uuid</meta>
-    <meta property="dcterms:modified">2018-05-21T13:38:00Z</meta>
+    <meta property="dcterms:modified">2018-06-06T13:38:00Z</meta>
     <dc:date>2017-12-22</dc:date>
     <dc:publisher id="en_publisher" xml:lang="en-us">Tusome Early Literacy Programme</dc:publisher>
     <dc:rights id="en_rights" xml:lang="en-us">All rights reserved.</dc:rights>
@@ -37,7 +37,6 @@
     <item id="font02" href="fonts/GillSansMt-SchlbkBold.ttf" media-type="application/vnd.ms-opentype"/>
     
     <item id="Cover" href="cover.xhtml" media-type="application/xhtml+xml"/>
-    <!-- <item id="titlepage" href="titlepage.xhtml" media-type="application/xhtml+xml"/> -->
     <item id="nav" href="nav.xhtml" media-type="application/xhtml+xml" properties="nav"/>
     <item id="ch01" href="ch01.xhtml" media-type="application/xhtml+xml"/>
     <item id="Bcover" href="bcover.xhtml" media-type="application/xhtml+xml"/>
