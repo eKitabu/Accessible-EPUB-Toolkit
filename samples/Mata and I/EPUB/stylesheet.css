@@ -1,19 +1,4 @@
 @charset "UTF-8";
-/*
-  ********************************************************************************************************************************
-  Version:  2.3
-  Date:  July 4, 2012
-  Organization:  Digital Divide Data ("DDD"), http://www.digitaldividedata.org
-  Author(s):  Ash Alluri (Product Development), Chhoy Vorng (Technical Solutions)
-  Contributor(s):  Eric Gold (Sr. Project Manager), Thearen Lay (Software Developer), Jeferson Sese (Sr. Solutions Developer)
-  *********************************************************************************************************************************
-  DDD utilizes this standard stylesheet for all eBook conversion services and deliverables.  When DDD produces
-  ePub and Kindle derivatives, we balance fidelity to the printed page layout against web standard best practices
-  using this standard stylesheets.  This stylesheet can stand-alone and provide an exceptional eBook product that is aesthetic,
-  readable and pleasant for the end-user.  Additionally, depending upon project-specific or
-  or other customer-specific requirements, this stylesheet may be modified and further customized pre or post eBook production.
-  **********************************************************************************************************************************
- */
 
 @font-face {
 font-family: 'GillSansMt';
