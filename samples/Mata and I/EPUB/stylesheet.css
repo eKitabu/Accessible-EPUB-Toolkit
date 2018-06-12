@@ -4,14 +4,14 @@
 font-family: 'GillSansMt';
 font-style: normal;
 font-weight: normal;
-src: url(../fonts/GillSansMt-Schlbk.ttf);
+src: url(fonts/GillSansMt-Schlbk.ttf);
 }
 
 @font-face {
 font-family: 'GillSansMt';
 font-style: normal;
 font-weight: bold;
-src: url(../fonts/GillSansMt-SchlbkBold.ttf);
+src: url(fonts/GillSansMt-SchlbkBold.ttf);
 }
 
 
