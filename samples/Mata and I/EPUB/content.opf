@@ -5,7 +5,7 @@
     <dc:creator id="creator01">Tusome Early Literacy Programme</dc:creator>
     <meta property="role" refines="#creator01">aut</meta>
     <meta property="file-as" refines="#creator01">Tusome Early Literacy Programme</meta>
-    <dc:language>en-us</dc:language>
+    <dc:language>en</dc:language>
     <dc:identifier id="uuid_id">N/A</dc:identifier>
     <meta property="identifier-type" refines="#uuid_id">uuid</meta>
     <meta property="dcterms:modified">2018-06-06T13:38:00Z</meta>
