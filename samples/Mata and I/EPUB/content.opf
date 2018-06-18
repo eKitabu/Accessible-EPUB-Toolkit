@@ -1,22 +1,29 @@
 <?xml version='1.0' encoding='utf-8'?>
 <package xmlns="http://www.idpf.org/2007/opf" version="3.0" unique-identifier="uuid_id" prefix="ibooks: http://vocabulary.itunes.apple.com/rdf/ibooks/vocabulary-extensions-1.0/">
   <metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:opf="http://www.idpf.org/2007/opf" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <!-- Title of the book -->
     <dc:title>Mata and I</dc:title>
+    <!-- Creator/Author -->
     <dc:creator id="creator01">Tusome Early Literacy Programme</dc:creator>
-    <meta property="role" refines="#creator01">aut</meta>
-    <meta property="file-as" refines="#creator01">Tusome Early Literacy Programme</meta>
+        <meta property="role" refines="#creator01">aut</meta>
+        <meta property="file-as" refines="#creator01">Tusome Early Literacy Programme</meta>
+    <!-- Language of the book-->
     <dc:language>en</dc:language>
+    <!-- Identifier -->
     <dc:identifier id="uuid_id">N/A</dc:identifier>
-    <meta property="identifier-type" refines="#uuid_id">uuid</meta>
-    <meta property="dcterms:modified">2018-06-06T13:38:00Z</meta>
+        <meta property="identifier-type" refines="#uuid_id">uuid</meta>
+        <meta property="dcterms:modified">2018-06-06T13:38:00Z</meta>
+    <!-- Date -->
     <dc:date>2017-12-22</dc:date>
+    <!-- Publisher of the book-->
     <dc:publisher id="en_publisher" xml:lang="en-us">Tusome Early Literacy Programme</dc:publisher>
-    <dc:rights id="en_rights" xml:lang="en-us">N/A</dc:rights>
+    <!-- Rights -->
+    <dc:rights id="en_rights" xml:lang="en">N/A</dc:rights>
     <meta property="ibooks:specified-fonts">true</meta>
     <meta property="ibooks:version">1.1</meta>
     <meta name="cover" content="cover-image"/>
 
-    <!-- Accessiblity Metadata Properties -->
+    <!-- ACCESSIBLITY METADATA PROPERTIES -->
     <meta property="schema:accessibilityHazard">none</meta>
     <meta property="schema:accessibilityFeature">structuralNavigation</meta>
     <meta property="schema:accessibilityFeature">tableOfContents</meta>
