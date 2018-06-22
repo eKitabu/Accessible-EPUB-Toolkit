@@ -18,7 +18,7 @@ src: url(fonts/GillSansMt-SchlbkBold.ttf);
   font-family: 'opendyslexic';
 	src: url(fonts/OpenDyslexic3-Regular.ttf);
 	font-style: normal;
-	font-weight: normal;
+	font-weight: bold;
 }
 
 body{
@@ -241,7 +241,8 @@ margin-left: 0em;
 margin-right: 0em;
 text-align:justify;
 color:#3698A1;
-font-weight: bold;list-style-type: none;
+font-weight: 
+bold;list-style-type: none;
 
 }
 
