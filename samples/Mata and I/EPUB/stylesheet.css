@@ -213,21 +213,23 @@ margin-right: 0em;
 list-style-type:upper-alpha;
 }
 
-ul.disc{
+ul.questions-list{
 margin-top: 0em;
 margin-bottom: 0em;
 margin-left: -1em;
 margin-right: 0em;
+list-style-type: none;
 }
 
-ul.disc li{
+ul.questions-list li{
 margin-top: 0em;
 margin-bottom: 0em;
 margin-left: 0em;
 margin-right: 0em;
 text-align:justify;
 color:#3698A1;
-font-weight: bold;
+font-weight: bold;list-style-type: none;
+
 }
 
 p.toc{
