@@ -14,7 +14,12 @@ font-weight: bold;
 src: url(fonts/GillSansMt-SchlbkBold.ttf);
 }
 
-
+@font-face {
+  font-family: 'opendyslexic';
+	src: url(fonts/OpenDyslexic3-Regular.ttf);
+	font-style: normal;
+	font-weight: normal;
+}
 
 body{
 font-size: medium;
@@ -22,7 +27,7 @@ line-height: 1.2em;
 margin-top: 1em;
 margin-left: 1em;
 margin-right: 1em;
-font-family: 'GillSansMt';
+font-family: 'opendyslexic'
 moz-hyphens: none;
  -ms-hyphens: none;
  -webkit-hyphens: none;
@@ -86,7 +91,7 @@ text-align:justify;
 
 p.crt{
 margin-top: 0.8em;
-margin-bottom: 0.8sem;
+margin-bottom: 0.8em;
 margin-left: 0em;
 margin-right: 0em;
 text-align: center;
@@ -120,12 +125,20 @@ font-size: 1.5em;
 color: #008796;
 }
 
-p.centerimg{
-margin-top: 0em;
-margin-bottom: 0em;
-margin-left: 0em;
-margin-right: 0em;
-text-align:center;
+div.ex_small {
+  text-align: center;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+div.img_l {
+  text-align: center;
+  margin-top: 0em;
+  margin-bottom: 0em;
+  margin-left: 0em;
+  margin-right: 0em;
+}
+div.img_l img {
+  max-width: 100%;
 }
 
 p.lineimg{
@@ -269,9 +282,4 @@ color:#FE0088;
 span.normal{
 font-weight:normal;
 color: black;
-}
-
-p.pagebreak{
-page-break-after: always;
-
 }
