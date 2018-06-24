@@ -16,9 +16,9 @@ src: url(fonts/GillSansMt-SchlbkBold.ttf);
 
 @font-face {
   font-family: 'opendyslexic';
-	src: url(fonts/OpenDyslexic3-Regular.ttf);
-	font-style: normal;
-	font-weight: bold;
+  src: url(fonts/OpenDyslexic3-Regular.ttf);
+  font-style: normal;
+  font-weight: bold;
 }
 
 body{
@@ -283,4 +283,11 @@ color:#FE0088;
 span.normal{
 font-weight:normal;
 color: black;
+}
+
+p.pagebreak{
+  page-break-after: always;
+  float: bottom;
+  text-align: center;
+  font-size: medium;
 }
