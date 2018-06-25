@@ -205,6 +205,14 @@ margin-right: 0em;
 text-align: left;
 }
 
+p.centerimg{
+margin-top: 0em;
+margin-bottom: 0em;
+margin-left: 0em;
+margin-right: 0em;
+text-align:center;
+}
+
 p.lineimg{
 margin-top: 2.5em;
 margin-bottom: 4em;
