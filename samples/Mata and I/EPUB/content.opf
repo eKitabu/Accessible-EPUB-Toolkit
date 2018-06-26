@@ -44,7 +44,7 @@
 
     <item id="font01" href="fonts/GillSansMt-Schlbk.ttf" media-type="application/vnd.ms-opentype"/>
     <item id="font02" href="fonts/GillSansMt-SchlbkBold.ttf" media-type="application/vnd.ms-opentype"/>
-    <item id="font03" href="fonts/OpenDyslexic3-Regular.ttf" media-type="application/font-sfnt"/>
+    <item id="font03" href="fonts/OpenDyslexic3-Regular.ttf" media-type="application/vnd.ms-opentype"/>
 
     <item id="Cover" href="cover.xhtml" media-type="application/xhtml+xml"/>
     <item id="nav" href="nav.xhtml" media-type="application/xhtml+xml" properties="nav"/>
