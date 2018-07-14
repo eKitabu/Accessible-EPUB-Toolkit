@@ -35,10 +35,10 @@ line-height: 1.2em;
 margin-top: 1em;
 margin-left: 1em;
 margin-right: 1em;
-font-family: 'opendyslexic'
-moz-hyphens: none;
- -ms-hyphens: none;
- -webkit-hyphens: none;
+font-family: 'opendyslexic';
+-moz-hyphens: none;
+-ms-hyphens: none;
+-webkit-hyphens: none;
 hyphens: none;
 }
 
