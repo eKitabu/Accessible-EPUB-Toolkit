@@ -39,7 +39,7 @@
     <meta property="schema:accessModeSufficient">textual,visual</meta>
     <meta property="a11y:certifiedBy">Chalres LaPierre, Born Accessible Team</meta> 
     <meta property="a11y:certifierCredential">Passed certification</meta>
-    <meta property="schema:accessibilitySummary">This title is a well-marked up and structured book, which is fully accessible. All images has sufficient alt tex.</meta>
+    <meta property="schema:accessibilitySummary">This title is a well-marked up and structured book, which is fully accessible. All images have sufficient alt tex.</meta>
   </metadata>
 
   <manifest>
