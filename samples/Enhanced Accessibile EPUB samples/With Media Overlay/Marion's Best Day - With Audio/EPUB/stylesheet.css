@@ -1,0 +1,340 @@
+@charset "UTF-8";
+
+/********************************/
+/***************FONTS************/
+/********************************/
+
+@font-face {
+font-family: 'GillSansMt';
+font-style: normal;
+font-weight: normal;
+src: url(fonts/GillSansMt-Schlbk.ttf);
+}
+
+@font-face {
+font-family: 'GillSansMt';
+font-style: normal;
+font-weight: bold;
+src: url(fonts/GillSansMt-SchlbkBold.ttf);
+}
+
+@font-face {
+  font-family: 'opendyslexic';
+  src: url(fonts/OpenDyslexic3-Regular.ttf);
+  font-style: normal;
+  font-weight: bold;
+}
+
+/********************************/
+/************* BODY *************/
+/********************************/
+
+body{
+font-size: 1.1em;
+line-height: 1.2em;
+margin-top: 1em;
+margin-left: 1em;
+margin-right: 1em;
+font-family: 'opendyslexic';
+-moz-hyphens: none;
+-ms-hyphens: none;
+-webkit-hyphens: none;
+hyphens: none;
+}
+
+/********************************/
+/*********** ANCHORS ************/
+/********************************/
+
+a.hlink{
+text-decoration: none;
+-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+/********************************/
+/*********** HEADINGS ************/
+/********************************/
+
+h1.chapter-title{
+margin-top: 4em;
+margin-bottom: 1em;
+margin-left: 0em;
+margin-right: 0em;
+text-align: center;
+line-height: 1.2em;
+font-weight: bold;
+font-size: 1.5em;
+color: #008796;
+}
+
+/********************************/
+/********** DIV ELEMENTS ********/
+/********************************/
+
+div.chapter{
+margin-top: 0em;
+margin-bottom: 0em;
+margin-left: 0em;
+margin-right: 0em;
+}
+
+div.titlepage{
+margin-top: 0em;
+margin-bottom: 0em;
+margin-left: 0em;
+margin-right: 0em;
+}
+
+div.copyright{
+margin-top: 0em;
+margin-bottom: 0em;
+margin-left: 0em;
+margin-right: 0em;
+font-size:0.9em;
+}
+
+div.box{
+margin-top:1em;
+margin-left:1em;
+margin-right:0em;
+margin-bottom:0.15em;
+background:#FEE6EF;
+border-radius:25px;
+border: 1.2px solid #008796;
+padding:12px;
+}
+
+div.ex_small {
+  text-align: center;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+div.img_l {
+  text-align: left;
+  margin-top: 0em;
+  margin-bottom: 0em;
+  margin-left: 0em;
+  margin-right: 0em;
+}
+div.img_l img {
+  max-width: 100%;
+}
+
+
+/********************************/
+/************* IMAGES ***********/
+/********************************/
+
+img.title{
+height: 100%;
+}
+
+img.line{
+width: 100%;
+}
+
+/********************************/
+/************ PARAGRAPHS ********/
+/********************************/
+
+p.titleimg{
+margin-top: 0em;
+margin-bottom: 0em;
+margin-left: 0em;
+margin-right: 0em;
+text-align:center;
+}
+
+p.indent{
+margin-top: 0.15em;
+margin-bottom: 0em;
+margin-left: 0em;
+text-indent: 1.5em;
+margin-right: 0em;
+text-align:justify;
+}
+
+p.nonindent{
+margin-top: 0.15em;
+margin-bottom: 0em;
+margin-left: 0em;
+margin-right: 0em;
+text-align:justify;
+}
+
+p.crt{
+margin-top: 0.8em;
+margin-bottom: 0.8em;
+margin-left: 0em;
+margin-right: 0em;
+text-align: center;
+}
+
+p.crt01{
+margin-top: 2em;
+margin-bottom: 0em;
+margin-left: 0em;
+margin-right: 0em;
+text-align: justify;
+}
+
+p.crt02{
+margin-top: 4em;
+margin-bottom: 0em;
+margin-left: 0em;
+margin-right: 0em;
+text-align: justify;
+}
+
+p.center{
+margin-top:0em;
+margin-left:0em;
+margin-right:0em;
+margin-bottom:0em;
+text-align:center;
+font-size:1.2em;
+color:#FE0088;
+}
+
+p.toc{
+margin-top: 0.15em;
+margin-bottom: 0em;
+margin-left: 0em;
+text-indent: 0em;
+margin-right: 0em;
+text-align: left;
+}
+
+p.centerimg{
+margin-top: 0em;
+margin-bottom: 0em;
+margin-left: 0em;
+margin-right: 0em;
+text-align:center;
+}
+
+p.lineimg{
+margin-top: 2.5em;
+margin-bottom: 4em;
+margin-left: 0em;
+margin-right: 0em;
+text-align:center;
+}
+
+p.pagebreak{
+  page-break-after: always;
+}
+
+span.normal{
+font-weight:normal;
+color: black;
+}
+
+/********************************/
+/************ TABLES ************/
+/********************************/
+
+table.text{
+margin-top: 0em;
+margin-bottom: 0em;
+margin-left: 0em;
+margin-right: 0em;
+width: 100%;
+}
+
+table.text td{
+padding-top: 0em;
+padding-bottom: 0em;
+padding-left: 0em;
+padding-right: 0em;
+text-indent: 0em;
+text-align:justify;
+vertical-align: top;
+}
+
+h1.bm-label{
+margin-top: 3em;
+margin-bottom: 0.2em;
+margin-left: 0em;
+margin-right: 0em;
+text-align: left;
+line-height: 1.2em;
+font-weight: bold;
+font-size: 1.1em;
+}
+
+h1.bm-title{
+margin-top: 0em;
+margin-bottom: 0.5em;
+margin-left: 0em;
+margin-right: 0em;
+text-align: left;
+line-height: 1.2em;
+font-weight: bold;
+font-size: 1.1em;
+}
+
+/********************************/
+/************* LISTS ************/
+/********************************/
+
+ol.arabic{
+margin-top: 0em;
+margin-bottom: 0em;
+margin-left: -1em;
+margin-right: 0em;
+}
+
+ol.arabic li{
+margin-top: 0em;
+margin-bottom: 0em;
+margin-left: 0em;
+margin-right: 0em;
+text-align:justify;
+color:#3698A1;
+font-weight: bold;
+}
+
+ol.upper-alpha{
+margin-top: 0.20em;
+margin-bottom: 0.20em;
+margin-left: 1em;
+margin-right: 0em;
+list-style-type:upper-alpha;
+}
+
+ol.upper-alpha li{
+margin-top: 0em;
+margin-bottom: 0em;
+margin-left: 0em;
+margin-right: 0em;
+list-style-type:upper-alpha;
+}
+
+ul.questions-list{
+margin-top: 0em;
+margin-bottom: 0em;
+margin-left: -1em;
+margin-right: 0em;
+list-style-type: none;
+}
+
+ul.questions-list li{
+/*edited*/
+margin-top: 0.5em;
+margin-bottom: 0.5em;
+margin-left: 0em;
+margin-right: 0em;
+text-align:justify;
+color:#3698A1;
+font-weight: bold;
+list-style-type: none;
+
+}
+
+/*========Media Overlay ===============================*/
+
+.-epub-media-overlay-active {
+    background-color: #ffb;
+}
+
