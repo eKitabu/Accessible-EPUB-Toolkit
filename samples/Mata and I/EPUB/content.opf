@@ -21,6 +21,8 @@
     <dc:rights id="en_rights" xml:lang="en">N/A</dc:rights>
     <!-- Source -->
     <dc:source>Title : Mata and I, Publisher : Tusome Early Literacy Programme, Year : 2017, Kenya</dc:source>
+    <!-- Description -->
+    <dc:description>This story is about the family of Mata and Pat. Mata and Pat go to school. They come back home after school. They play together. Father and Mother join them.</dc:description>
     <meta property="ibooks:specified-fonts">true</meta>
     <meta property="ibooks:version">1.1</meta>
     <!-- Meta for the cover -->
