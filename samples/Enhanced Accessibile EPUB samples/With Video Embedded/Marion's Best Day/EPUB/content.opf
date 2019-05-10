@@ -1,0 +1,103 @@
+<?xml version='1.0' encoding='utf-8'?>
+<package xmlns="http://www.idpf.org/2007/opf" version="3.0" unique-identifier="uuid_id" prefix="rendition: http://www.idpf.org/vocab/rendition/# ibooks: http://vocabulary.itunes.apple.com/rdf/ibooks/vocabulary-extensions-1.0/">
+  <metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:opf="http://www.idpf.org/2007/opf" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:title>Marion&#x2019;s best day</dc:title>
+    <!-- Creator/Author -->
+    <dc:creator id="creator01">Tusome Early Literacy Programme</dc:creator>
+        <meta property="role" refines="#creator01">aut</meta>
+        <meta property="file-as" refines="#creator01">Tusome Early Literacy Programme</meta>
+        <meta property="dcterms:modified">2018-07-19T14:00:00Z</meta>
+    <!-- Date -->
+    <dc:date>2017-12-22</dc:date>
+    <!-- Publisher of the book-->
+    <dc:publisher id="en_publisher" xml:lang="en">Tusome Early Literacy Programme</dc:publisher>
+    <!-- Language of the book-->
+    <dc:language>en</dc:language>
+    <!-- Identifier -->
+    <dc:identifier id="uuid_id">N/A</dc:identifier>
+        <meta property="identifier-type" refines="#uuid_id">uuid</meta>
+    <!-- Rights -->
+    <dc:rights id="en_rights" xml:lang="en">N/A</dc:rights>
+    <!-- Source -->
+    <dc:source>Title : Marion's Best Day, Publisher : Tusome Early Literacy Programme, Year : 2017, Kenya</dc:source>
+    <meta property="ibooks:specified-fonts">true</meta>
+    <meta property="ibooks:version">1.1</meta>
+    <!-- Meta for the cover -->
+    <meta name="cover" content="cover-image"/>
+
+    <!-- ACCESSIBLITY METADATA PROPERTIES -->
+    <meta property="schema:accessibilityHazard">none</meta>
+    <meta property="schema:accessibilityFeature">alternativeText</meta>
+    <meta property="schema:accessibilityFeature">structuralNavigation</meta>
+    <meta property="schema:accessibilityFeature">tableOfContents</meta>
+    <meta property="schema:accessMode">textual</meta>
+    <meta property="schema:accessMode">visual</meta>
+    <meta property="schema:accessibilityAPI">ARIA</meta>
+    <meta property="schema:accessModeSufficient">textual</meta>
+    <meta property="schema:accessModeSufficient">visual</meta>
+    <meta property="schema:accessModeSufficient">textual,visual</meta>
+    <meta property="schema:accessibilitySummary">This title is a well-marked up and structured book, which is fully accessible. All interior images has sufficient alt text and signed videos.</meta>
+    <!-- FIXED LAYOUT METADATA -->
+    <meta property="rendition:layout">pre-paginated</meta>
+    <meta property="rendition:orientation">auto</meta>
+    <meta property="rendition:spread">none</meta>
+  </metadata>
+
+  <manifest>
+    <item id="nav" href="nav.xhtml" media-type="application/xhtml+xml" properties="nav"/>
+    <item id="cover" href="cover.xhtml" media-type="application/xhtml+xml"/>
+    <item id="ch01pg1" href="ch01_pg1.xhtml" media-type="application/xhtml+xml"/>
+    <item id="ch01pg2" href="ch01_pg2.xhtml" media-type="application/xhtml+xml"/>
+    <item id="ch01pg3" href="ch01_pg3.xhtml" media-type="application/xhtml+xml"/>
+    <item id="ch01pg4" href="ch01_pg4.xhtml" media-type="application/xhtml+xml"/>
+    <item id="ch01pg5" href="ch01_pg5.xhtml" media-type="application/xhtml+xml"/>
+    <item id="ch01pg6" href="ch01_pg6.xhtml" media-type="application/xhtml+xml"/>
+    <item id="ch01pg7" href="ch01_pg7.xhtml" media-type="application/xhtml+xml"/>
+    <item id="ch01pg8" href="ch01_pg8.xhtml" media-type="application/xhtml+xml"/>
+    <item id="ch01pg9" href="ch01_pg9.xhtml" media-type="application/xhtml+xml"/>
+    <item id="back" href="back.xhtml" media-type="application/xhtml+xml"/>
+
+    <item id="iBcover" href="images/Bcover.jpg" media-type="image/jpeg"/>
+    <item id="cover-image" href="images/Cover.jpg" media-type="image/jpeg"/>
+    <!-- <item id="thumb_cover" href="images/thumbnail_cover.jpg" media-type="image/jpeg"/>
+    <item id="thumb_bcover" href="images/thumbnail_bcover.jpg" media-type="image/jpeg"/> -->
+    <item id="thumb01" href="images/thumbnail_pg1.jpg" media-type="image/jpeg"/>
+    <item id="thumb02" href="images/thumbnail_pg2.jpg" media-type="image/jpeg"/>
+    <item id="thumb03" href="images/thumbnail_pg3.jpg" media-type="image/jpeg"/>
+    <item id="thumb04" href="images/thumbnail_pg4.jpg" media-type="image/jpeg"/>
+    <item id="thumb05" href="images/thumbnail_pg5.jpg" media-type="image/jpeg"/>
+    <item id="thumb06" href="images/thumbnail_pg6.jpg" media-type="image/jpeg"/>
+    <item id="thumb07" href="images/thumbnail_pg7.jpg" media-type="image/jpeg"/>
+    <item id="thumb08" href="images/thumbnail_pg8.jpg" media-type="image/jpeg"/>
+    <item id="thumb09" href="images/thumbnail_questions.jpg" media-type="image/jpeg"/>
+
+    <item id="n000-D" href="src/Marion_best_day_pg1.mp4" media-type="video/mp4"/>
+    <item id="n001-D" href="src/Marion_best_day_pg2.mp4" media-type="video/mp4"/>
+    <item id="n002-D" href="src/Marion_best_day_pg3.mp4" media-type="video/mp4"/>
+    <item id="n003-D" href="src/Marion_best_day_pg4.mp4" media-type="video/mp4"/>
+    <item id="n004-D" href="src/Marion_best_day_pg5.mp4" media-type="video/mp4"/>
+    <item id="n005-D" href="src/Marion_best_day_pg6.mp4" media-type="video/mp4"/>
+    <item id="n006-D" href="src/Marion_best_day_pg7.mp4" media-type="video/mp4"/>
+    <item id="n007-D" href="src/Marion_best_day_pg8.mp4" media-type="video/mp4"/>
+    <item id="n008-D" href="src/Marion_best_day_questions.mp4" media-type="video/mp4"/>
+    
+    <item id="font01" href="fonts/OpenDyslexic3-Regular.ttf" media-type="application/vnd.ms-opentype"/>
+    <item id="css" href="stylesheet.css" media-type="text/css"/>
+    <item id="ncx" href="toc.ncx" media-type="application/x-dtbncx+xml"/>
+  </manifest>
+
+  <spine toc="ncx">
+    <itemref idref="cover"/>
+    <itemref idref="nav"/>
+    <itemref idref="ch01pg1"/>
+    <itemref idref="ch01pg2"/>
+    <itemref idref="ch01pg3"/>
+    <itemref idref="ch01pg4"/>
+    <itemref idref="ch01pg5"/>
+    <itemref idref="ch01pg6"/>
+    <itemref idref="ch01pg7"/>
+    <itemref idref="ch01pg8"/>
+    <itemref idref="ch01pg9"/>
+    <itemref idref="back"/>
+  </spine>
+</package>
