@@ -341,6 +341,36 @@ bold;list-style-type: none;
 }
 
 /* Back cover*/
+.c000000 {
+    background-color: #9E9E9E;
+    color: #000000;
+}
+
+.c000000_darker {
+    background-color: #616161;
+    color: #FFFFFF;
+}
+
+.cD2D3D5,.cF3F3F4 {
+    background-color: #9E9E9E;
+    color: #000000;
+}
+
+.cD2D3D5_darker,.cF3F3F4_darker {
+    background-color: #616161;
+    color: #FFFFFF;
+}
+
+.cF3BE17 {
+    background-color: #FFC107;
+    color: #000000;
+}
+
+.cF3BE17_darker {
+    background-color: #FFA00B;
+    color: #000000;
+}
+
 .cD8852A {
     background-color: #FF9800;
     color: #000000;
@@ -349,6 +379,46 @@ bold;list-style-type: none;
 .cD8852A_darker {
     background-color: #f57c00;
     color: #000000;
+}
+
+.c90B73E {
+    background-color: #FF9800;
+    color: #000000;
+}
+
+.c90B73E_darker {
+    background-color: #F57C00;
+    color: #000000;
+}
+
+.c03A9F4 {
+    background-color: #03A9F4;
+    color: #000000;
+}
+
+.c03A9F4_darker {
+    background-color: #0288D1;
+    color: #000000;
+}
+
+.c89C9CC {
+    background-color: #03A9F4;
+    color: #000000;
+}
+
+.c89C9CC_darker {
+    background-color: #0288D1;
+    color: #000000;
+}
+
+.cB6608E {
+    background-color: #9C27B0;
+    color: #ffffff;
+}
+
+.cB6608E_darker {
+    background-color: #7B1FA2;
+    color: #FFFFFF;
 }
 
 .levelFont1 {
