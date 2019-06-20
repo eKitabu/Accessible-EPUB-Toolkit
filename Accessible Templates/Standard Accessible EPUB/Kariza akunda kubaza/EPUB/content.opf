@@ -7,9 +7,9 @@
     <dc:creator id="creator01">Jean de Dieu Bavugempore</dc:creator>
         <meta property="role" refines="#creator01">aut</meta>
         <meta property="file-as" refines="#creator01">Jean de Dieu Bavugempore</meta>
-        <meta property="dcterms:modified">2018-08-04T12:39:00Z</meta>
+        <meta property="dcterms:modified">2019-06-18T12:39:00Z</meta>
     <!-- Date -->
-    <dc:date>2017-12-22</dc:date>
+    <dc:date>2017</dc:date>
     <!-- Publisher of the book-->
     <dc:publisher id="en_publisher" xml:lang="en-us">African Storybook</dc:publisher>
     <!-- Language of the book-->
