@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ncx version="2005-1" xml:lang="en" xmlns="http://www.daisy.org/z3986/2005/ncx/">
+  <head>
+    <meta content="N/A" name="dtb:uid"/>
+    <meta content="2" name="dtb:depth"/>
+    <meta content="0" name="dtb:totalPageCount"/>
+    <meta content="0" name="dtb:maxPageNumber"/>
+  </head>
+  <docTitle>
+    <text>Kariza akunda kubaza</text>
+  </docTitle>
+  <navMap>
+    <navPoint id="nav1" playOrder="1">
+      <navLabel>
+        <text>Front Cover</text>
+      </navLabel>
+      <content src="Text/cover.xhtml"/>
+    </navPoint>
+    <navPoint id="nav2" playOrder="2">
+      <navLabel>
+        <text>Content</text>
+      </navLabel>
+      <content src="Text/nav.xhtml"/>
+      <navPoint id="nav3" playOrder="3">
+        <navLabel>
+          <text>Chapter 01</text>
+        </navLabel>
+        <content src="Text/ch01.xhtml"/>
+      </navPoint>
+    </navPoint>
+    <navPoint id="nav4" playOrder="4">
+      <navLabel>
+        <text>Back Cover</text>
+      </navLabel>
+      <content src="Text/bcover.xhtml"/>
+    </navPoint>
+  </navMap>
+</ncx>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package version="3.0" unique-identifier="uuid_id" prefix="ibooks: http://vocabulary.itunes.apple.com/rdf/ibooks/vocabulary-extensions-1.0/" xmlns="http://www.idpf.org/2007/opf">
+  <metadata xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <dc:title>Kariza akunda kubaza</dc:title>
+    <dc:creator id="creator01">Jean de Dieu Bavugempore</dc:creator>
+    <meta refines="#creator01" property="role">aut</meta>
+    <meta refines="#creator01" property="file-as">Jean de Dieu Bavugempore</meta>
+    <meta property="dcterms:modified">2019-06-25T08:54:32Z</meta>
+    <dc:date>2017</dc:date>
+    <dc:publisher id="en_publisher" xml:lang="en-us">African Storybook</dc:publisher>
+    <dc:language>rw</dc:language>
+    <dc:identifier id="uuid_id">N/A</dc:identifier>
+    <meta refines="#uuid_id" property="identifier-type">N/A</meta>
+    <dc:rights id="en_rights" xml:lang="en">You are free to download, copy, translate or adapt this story and use the illustrations as long as you attribute the author, translator, illustrator and publisher of this publication.</dc:rights>
+    <dc:source>Title: Kariza akunda kubaza, Publisher: African Storybook, Author: Jean de Dieu Bavugempore, Contributor: Rob Owen, Year: 2017, Africa</dc:source>
+    <dc:description>Ababyeyi ba Kariza bamutoje kubaza. Gukunda kubaza byatumye Kariza asobanukirwa akamaro ko gukaraba mbere yo kurya,  amenya no gukoresha kandagirukarabe.</dc:description>
+    <meta property="ibooks:specified-fonts">true</meta>
+    <meta property="ibooks:version">1.1</meta>
+    <meta name="cover" content="cover-image" />
+    <meta property="schema:accessibilityHazard">none</meta>
+    <meta property="schema:accessibilityFeature">alternativeText</meta>
+    <meta property="schema:accessibilityFeature">structuralNavigation</meta>
+    <meta property="schema:accessibilityFeature">tableOfContents</meta>
+    <meta property="schema:accessMode">textual</meta>
+    <meta property="schema:accessMode">visual</meta>
+    <meta property="schema:accessibilityAPI">ARIA</meta>
+    <meta property="schema:accessModeSufficient">textual</meta>
+    <meta property="schema:accessModeSufficient">visual</meta>
+    <meta property="schema:accessModeSufficient">textual,visual</meta>
+    <meta property="schema:accessibilitySummary">This title is a well-marked up and structured book, which is fully accessible. All images have sufficient alt text.</meta>
+    <meta name="Sigil version" content="0.9.13" />
+  </metadata>
+  <manifest>
+    <item id="font01" href="Fonts/GillSansMt-Schlbk.ttf" media-type="application/vnd.ms-opentype"/>
+    <item id="font02" href="Fonts/GillSansMt-SchlbkBold.ttf" media-type="application/vnd.ms-opentype"/>
+    <item id="font03" href="Fonts/OpenDyslexic3-Regular.ttf" media-type="application/vnd.ms-opentype"/>
+    <item id="Cover" href="Text/cover.xhtml" media-type="application/xhtml+xml"/>
+    <item id="nav" href="Text/nav.xhtml" media-type="application/xhtml+xml" properties="nav"/>
+    <item id="ch01" href="Text/ch01.xhtml" media-type="application/xhtml+xml"/>
+    <item id="Bcover" href="Text/bcover.xhtml" media-type="application/xhtml+xml"/>
+    <item id="item_image_0" href="Images/logowhite.png" media-type="image/png"/>
+    <item id="item_image_1" href="Images/asblogo.png" media-type="image/png"/>
+    <item id="cover-image" href="Images/cover.jpeg" media-type="image/jpeg" properties="cover-image"/>
+    <item id="image201" href="Images/img01.jpg" media-type="image/jpeg"/>
+    <item id="image202" href="Images/img02.jpg" media-type="image/jpeg"/>
+    <item id="image203" href="Images/img03.jpg" media-type="image/jpeg"/>
+    <item id="image204" href="Images/img04.jpg" media-type="image/jpeg"/>
+    <item id="image205" href="Images/img05.jpg" media-type="image/jpeg"/>
+    <item id="image206" href="Images/img06.jpg" media-type="image/jpeg"/>
+    <item id="image207" href="Images/img07.jpg" media-type="image/jpeg"/>
+    <item id="image209" href="Images/img08.jpg" media-type="image/jpeg"/>
+    <item id="image210" href="Images/img09.jpg" media-type="image/jpeg"/>
+    <item id="image211" href="Images/img10.jpg" media-type="image/jpeg"/>
+    <item id="image212" href="Images/img11.jpg" media-type="image/jpeg"/>
+    <item id="image213" href="Images/img12.jpg" media-type="image/jpeg"/>
+    <item id="css" href="Styles/stylesheet.css" media-type="text/css"/>
+    <item id="ncx" href="toc.ncx" media-type="application/x-dtbncx+xml"/>
+  </manifest>
+  <spine toc="ncx">
+    <itemref idref="Cover"/>
+    <itemref idref="nav"/>
+    <itemref idref="ch01"/>
+    <itemref idref="Bcover"/>
+  </spine>
+</package>

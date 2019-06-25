@@ -8,19 +8,19 @@
 font-family: 'GillSansMt';
 font-style: normal;
 font-weight: normal;
-src: url(fonts/GillSansMt-Schlbk.ttf);
+src: url(../Fonts/GillSansMt-Schlbk.ttf);
 }
 
 @font-face {
 font-family: 'GillSansMt';
 font-style: normal;
 font-weight: bold;
-src: url(fonts/GillSansMt-SchlbkBold.ttf);
+src: url(../Fonts/GillSansMt-SchlbkBold.ttf);
 }
 
 @font-face {
   font-family: 'opendyslexic';
-  src: url(fonts/OpenDyslexic3-Regular.ttf);
+  src: url(../Fonts/OpenDyslexic3-Regular.ttf);
   font-style: normal;
   font-weight: bold;
 }
