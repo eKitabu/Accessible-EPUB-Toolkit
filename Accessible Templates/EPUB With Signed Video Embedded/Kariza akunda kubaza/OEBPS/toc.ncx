@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ncx version="2005-1" xml:lang="en" xmlns="http://www.daisy.org/z3986/2005/ncx/">
+  <head>
+    <meta content="N/A" name="dtb:uid"/>
+    <meta content="2" name="dtb:depth"/>
+    <meta content="0" name="dtb:totalPageCount"/>
+    <meta content="0" name="dtb:maxPageNumber"/>
+  </head>
+  <docTitle>
+    <text>Kariza akunda kubaza</text>
+  </docTitle>
+  <navMap>
+    <navPoint id="nav1" playOrder="1">
+      <navLabel>
+        <text>Ahabanza</text>
+      </navLabel>
+      <content src="Text/front_cover.xhtml"/>
+    </navPoint>
+    <navPoint id="nav2" playOrder="2">
+      <navLabel>
+        <text>Ibirimo</text>
+      </navLabel>
+      <content src="Text/nav.xhtml"/>
+      <navPoint id="nav3" playOrder="3">
+        <navLabel>
+          <text>Umutwe wa mbere</text>
+        </navLabel>
+        <content src="Text/1.xhtml"/>
+      </navPoint>
+      <navPoint id="nav4" playOrder="4">
+        <navLabel>
+          <text>Ibibazo</text>
+        </navLabel>
+        <content src="Text/questions1.xhtml"/>
+      </navPoint>
+      <navPoint id="nav5" playOrder="5">
+        <navLabel>
+          <text>Ibisobanuro</text>
+        </navLabel>
+        <content src="Text/glossary1.xhtml"/>
+      </navPoint>
+    </navPoint>
+    <navPoint id="nav6" playOrder="6">
+      <navLabel>
+        <text>Ahaheruka</text>
+      </navLabel>
+      <content src="Text/back_cover.xhtml"/>
+    </navPoint>
+  </navMap>
+</ncx>

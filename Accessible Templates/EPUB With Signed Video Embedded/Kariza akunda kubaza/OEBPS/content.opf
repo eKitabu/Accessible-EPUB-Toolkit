@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package version="3.0" unique-identifier="uuid_id" prefix="ibooks: http://vocabulary.itunes.apple.com/rdf/ibooks/vocabulary-extensions-1.0/" xmlns="http://www.idpf.org/2007/opf">
+  <metadata xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
+    <dc:title>Kariza akunda kubaza</dc:title>
+    <dc:creator id="creator01">Jean de Dieu Bavugempore</dc:creator>
+    <meta property="role" refines="#creator01">aut</meta>
+    <meta property="file-as" refines="#creator01">Jean de Dieu Bavugempore</meta>
+    <meta property="dcterms:modified">2019-07-03T18:02:24Z</meta>
+    <dc:date>2017</dc:date>
+    <dc:publisher id="en_publisher" xml:lang="en-us">African Storybook</dc:publisher>
+    <dc:language>rw</dc:language>
+    <dc:identifier id="uuid_id">N/A</dc:identifier>
+    <meta property="identifier-type" refines="#uuid_id">N/A</meta>
+    <dc:rights id="en_rights" xml:lang="en">You are free to download, copy, translate or adapt this story and use the illustrations as long as you attribute the author, translator, illustrator and publisher of this publication.</dc:rights>
+    <dc:source>Title: Kariza akunda kubaza, Publisher: African Storybook, Author: Jean de Dieu Bavugempore, Contributor: Rob Owen, Year: 2017, Africa</dc:source>
+    <dc:description>Ababyeyi ba Kariza bamutoje kubaza. Gukunda kubaza byatumye Kariza asobanukirwa akamaro ko gukaraba mbere yo kurya,  amenya no gukoresha kandagirukarabe.</dc:description>
+    <meta property="rendition:layout">pre-paginated</meta>
+    <meta property="rendition:orientation">auto</meta>
+    <meta property="rendition:spread">none</meta>
+    <meta property="ibooks:specified-fonts">true</meta>
+    <meta property="ibooks:version">1.1</meta>
+    <meta name="cover" content="cover-image" />
+    <meta property="schema:accessibilityHazard">none</meta>
+    <meta property="schema:accessibilityFeature">alternativeText</meta>
+    <meta property="schema:accessibilityFeature">structuralNavigation</meta>
+    <meta property="schema:accessibilityFeature">tableOfContents</meta>
+    <meta property="schema:accessibilityFeature">signedLanguage</meta>
+    <meta property="schema:accessMode">textual</meta>
+    <meta property="schema:accessMode">visual</meta>
+    <meta property="schema:accessibilityAPI">ARIA</meta>
+    <meta property="schema:accessModeSufficient">textual</meta>
+    <meta property="schema:accessModeSufficient">visual</meta>
+    <meta property="schema:accessModeSufficient">textual,visual</meta>
+    <meta property="schema:accessibilitySummary">This title is a well-marked up and structured book, which is fully accessible. All interior images has sufficient alt text and shows how longer descriptions can be added.</meta>
+    <meta content="0.9.13" name="Sigil version" />
+  </metadata>
+  <manifest>
+    <item id="font00" href="Fonts/OpenDyslexic3-Regular.ttf" media-type="application/vnd.ms-opentype"/>
+    <item id="stylesheet.css" href="Styles/stylesheet.css" media-type="text/css"/>
+    <item id="NotoSans-Regular" href="Fonts/NotoSans.otf" media-type="application/vnd.ms-opentype"/>
+    <item id="Noto-Sans-Ethiopic" href="Fonts/NotoSansEthiopic-Regular.otf" media-type="application/vnd.ms-opentype"/>
+    <item id="NotoKufiArabic" href="Fonts/NotoKufiArabic.otf" media-type="application/vnd.ms-opentype"/>
+    <item id="item_image_0" href="Images/logowhite.png" media-type="image/png"/>
+    <item id="item_image_1" href="Images/asblogo.png" media-type="image/png"/>
+    <item id="front_cover.xhtml" href="Text/front_cover.xhtml" media-type="application/xhtml+xml"/>
+    <item id="chapter_1" href="Text/1.xhtml" media-type="application/xhtml+xml"/>
+    <item id="chapter_3" href="Text/3.xhtml" media-type="application/xhtml+xml"/>
+    <item id="chapter_4" href="Text/4.xhtml" media-type="application/xhtml+xml"/>
+    <item id="chapter_5" href="Text/5.xhtml" media-type="application/xhtml+xml"/>
+    <item id="chapter_6" href="Text/6.xhtml" media-type="application/xhtml+xml"/>
+    <item id="chapter_7" href="Text/7.xhtml" media-type="application/xhtml+xml"/>
+    <item id="chapter_8" href="Text/8.xhtml" media-type="application/xhtml+xml"/>
+    <item id="chapter_9" href="Text/9.xhtml" media-type="application/xhtml+xml"/>
+    <item id="chapter_10" href="Text/10.xhtml" media-type="application/xhtml+xml"/>
+    <item id="chapter_11" href="Text/11.xhtml" media-type="application/xhtml+xml"/>
+    <item id="chapter_12" href="Text/12.xhtml" media-type="application/xhtml+xml"/>
+    <item id="back_cover.xhtml" href="Text/back_cover.xhtml" media-type="application/xhtml+xml"/>
+    <item id="ncx" href="toc.ncx" media-type="application/x-dtbncx+xml"/>
+    <item id="nav" href="Text/nav.xhtml" media-type="application/xhtml+xml" properties="nav"/>
+    <item id="cover-image" href="Images/cover.png" media-type="image/png" properties="cover-image"/>
+    <item id="front_cover.mp4" href="Video/front_cover.mp4" media-type="video/mp4"/>
+    <item id="page1.mp4" href="Video/page1.mp4" media-type="video/mp4"/>
+    <item id="page2.mp4" href="Video/page2.mp4" media-type="video/mp4"/>
+    <item id="page3.mp4" href="Video/page3.mp4" media-type="video/mp4"/>
+    <item id="page4.mp4" href="Video/page4.mp4" media-type="video/mp4"/>
+    <item id="page5.mp4" href="Video/page5.mp4" media-type="video/mp4"/>
+    <item id="page6.mp4" href="Video/page6.mp4" media-type="video/mp4"/>
+    <item id="page7.mp4" href="Video/page7.mp4" media-type="video/mp4"/>
+    <item id="page8.mp4" href="Video/page8.mp4" media-type="video/mp4"/>
+    <item id="page9.mp4" href="Video/page9.mp4" media-type="video/mp4"/>
+    <item id="page10.mp4" href="Video/page10.mp4" media-type="video/mp4"/>
+    <item id="page12.mp4" href="Video/page12.mp4" media-type="video/mp4"/>
+    <item id="x2.xhtml" href="Text/2.xhtml" media-type="application/xhtml+xml"/>
+    <item id="questions2.xhtml" href="Text/questions2.xhtml" media-type="application/xhtml+xml"/>
+    <item id="questions1.xhtml" href="Text/questions1.xhtml" media-type="application/xhtml+xml"/>
+    <item id="questions1.mp4" href="Video/questions1.mp4" media-type="video/mp4"/>
+    <item id="questions2.mp4" href="Video/questions2.mp4" media-type="video/mp4"/>
+    <item id="glossary1.xhtml" href="Text/glossary1.xhtml" media-type="application/xhtml+xml"/>
+    <item id="Akabati.mp4" href="Video/Akabati.mp4" media-type="video/mp4"/>
+    <item id="Amatsiko.mp4" href="Video/Amatsiko.mp4" media-type="video/mp4"/>
+    <item id="Burigihe.mp4" href="Video/Burigihe.mp4" media-type="video/mp4"/>
+    <item id="go-back-icon.jpg" href="Images/go-back-icon.jpg" media-type="image/jpeg"/>
+    <item id="glossary2.xhtml" href="Text/glossary2.xhtml" media-type="application/xhtml+xml"/>
+    <item id="glossary3.xhtml" href="Text/glossary3.xhtml" media-type="application/xhtml+xml"/>
+    <item id="glossary4.xhtml" href="Text/glossary4.xhtml" media-type="application/xhtml+xml"/>
+    <item id="glossary5.xhtml" href="Text/glossary5.xhtml" media-type="application/xhtml+xml"/>
+    <item id="glossary6.xhtml" href="Text/glossary6.xhtml" media-type="application/xhtml+xml"/>
+    <item id="glossary7.xhtml" href="Text/glossary7.xhtml" media-type="application/xhtml+xml"/>
+    <item id="glossary8.xhtml" href="Text/glossary8.xhtml" media-type="application/xhtml+xml"/>
+    <item id="glossary9.xhtml" href="Text/glossary9.xhtml" media-type="application/xhtml+xml"/>
+    <item id="glossary10.xhtml" href="Text/glossary10.xhtml" media-type="application/xhtml+xml"/>
+    <item id="glossary11.xhtml" href="Text/glossary11.xhtml" media-type="application/xhtml+xml"/>
+    <item id="glossary12.xhtml" href="Text/glossary12.xhtml" media-type="application/xhtml+xml"/>
+    <item id="glossary13.xhtml" href="Text/glossary13.xhtml" media-type="application/xhtml+xml"/>
+    <item id="glossary14.xhtml" href="Text/glossary14.xhtml" media-type="application/xhtml+xml"/>
+    <item id="Gufasha.mp4" href="Video/Gufasha.mp4" media-type="video/mp4"/>
+    <item id="Gukaraba.mp4" href="Video/Gukaraba.mp4" media-type="video/mp4"/>
+    <item id="Gukomeza.mp4" href="Video/Gukomeza.mp4" media-type="video/mp4"/>
+    <item id="Gukora.mp4" href="Video/Gukora.mp4" media-type="video/mp4"/>
+    <item id="Gukunda.mp4" href="Video/Gukunda.mp4" media-type="video/mp4"/>
+    <item id="Gusaza.mp4" href="Video/Gusaza.mp4" media-type="video/mp4"/>
+    <item id="Gusharu.mp4" href="Video/Gusharu.mp4" media-type="video/mp4"/>
+    <item id="Gutera.mp4" href="Video/Gutera.mp4" media-type="video/mp4"/>
+    <item id="Ibidukikije.mp4" href="Video/Ibidukikije.mp4" media-type="video/mp4"/>
+    <item id="Impamvu.mp4" href="Video/Impamvu.mp4" media-type="video/mp4"/>
+    <item id="Imuhira.mp4" href="Video/Imuhira.mp4" media-type="video/mp4"/>
+    <item id="Indwara.mp4" href="Video/Indwara.mp4" media-type="video/mp4"/>
+    <item id="Inshuti.mp4" href="Video/Inshuti.mp4" media-type="video/mp4"/>
+    <item id="Intoki.mp4" href="Video/Intoki.mp4" media-type="video/mp4"/>
+    <item id="Kandagirukarabe.mp4" href="Video/Kandagirukarabe.mp4" media-type="video/mp4"/>
+    <item id="Kumenya.mp4" href="Video/Kumenya.mp4" media-type="video/mp4"/>
+    <item id="Kureba.mp4" href="Video/Kureba.mp4" media-type="video/mp4"/>
+    <item id="Kwigisha.mp4" href="Video/Kwigisha.mp4" media-type="video/mp4"/>
+    <item id="Kwishima.mp4" href="Video/Kwishima.mp4" media-type="video/mp4"/>
+    <item id="Mama.mp4" href="Video/Mama.mp4" media-type="video/mp4"/>
+    <item id="Mikorobe.mp4" href="Video/Mikorobe.mp4" media-type="video/mp4"/>
+    <item id="Mikorosikopi.mp4" href="Video/Mikorosikopi.mp4" media-type="video/mp4"/>
+    <item id="Umunsi.mp4" href="Video/Umunsi.mp4" media-type="video/mp4"/>
+    <item id="Umwanda.mp4" href="Video/Umwanda.mp4" media-type="video/mp4"/>
+    <item id="Zisaneza.mp4" href="Video/Zisaneza.mp4" media-type="video/mp4"/>
+  </manifest>
+  <spine toc="ncx">
+    <itemref idref="front_cover.xhtml"/>
+    <itemref idref="nav"/>
+    <itemref idref="chapter_1"/>
+    <itemref idref="x2.xhtml"/>
+    <itemref idref="chapter_3"/>
+    <itemref idref="chapter_4"/>
+    <itemref idref="chapter_5"/>
+    <itemref idref="chapter_6"/>
+    <itemref idref="chapter_7"/>
+    <itemref idref="chapter_8"/>
+    <itemref idref="chapter_9"/>
+    <itemref idref="chapter_10"/>
+    <itemref idref="chapter_11"/>
+    <itemref idref="chapter_12"/>
+    <itemref idref="questions1.xhtml"/>
+    <itemref idref="questions2.xhtml"/>
+    <itemref idref="glossary1.xhtml"/>
+    <itemref idref="glossary2.xhtml"/>
+    <itemref idref="glossary3.xhtml"/>
+    <itemref idref="glossary4.xhtml"/>
+    <itemref idref="glossary5.xhtml"/>
+    <itemref idref="glossary6.xhtml"/>
+    <itemref idref="glossary7.xhtml"/>
+    <itemref idref="glossary8.xhtml"/>
+    <itemref idref="glossary9.xhtml"/>
+    <itemref idref="glossary10.xhtml"/>
+    <itemref idref="glossary11.xhtml"/>
+    <itemref idref="glossary12.xhtml"/>
+    <itemref idref="glossary13.xhtml"/>
+    <itemref idref="glossary14.xhtml"/>
+    <itemref idref="back_cover.xhtml"/>
+  </spine>
+</package>

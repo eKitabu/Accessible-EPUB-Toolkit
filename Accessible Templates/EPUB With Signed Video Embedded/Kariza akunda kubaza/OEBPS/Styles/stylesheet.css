@@ -1,0 +1,403 @@
+@charset "UTF-8";
+@namespace "http://www.w3.org/1999/xhtml";
+@namespace epub "http://www.idpf.org/2007/ops";
+
+
+@font-face {
+    font-family: 'NotoSans-Regular';
+    src: url(../Fonts/NotoSans.otf)  format('opentype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+  font-family: 'Noto Sans Ethiopic';
+  src: url(../Fonts/NotoSansEthiopic-Regular.otf) format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+  font-family: 'NotoKufiArabic';
+  src: url('../Fonts/NotoKufiArabic.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'opendyslexic';
+  src: url(../Fonts/OpenDyslexic3-Regular.ttf);
+  font-style: normal;
+  font-weight: bold;
+}
+
+
+
+/* -------Navigation Page --------*/
+nav{
+	line-height: 35px;
+	padding-left: 20px;
+}
+
+ol.notlist > li {
+	font-size: 20px;
+}
+
+body {
+    /* use sans-serif as fallback to make the difference obvious */    
+    padding: 20px 5px 20px 5px;
+	line-height: 35px;
+    font-family: 'opendyslexic';
+	-moz-hyphens: none;
+	-ms-hyphens: none;
+	-webkit-hyphens: none;
+	hyphens: none;
+}
+
+/*-----Navigation Page----------*/
+ol.notlist{
+margin-top: 0em 0em 0em 0em;
+list-style-type: number;
+padding: 0px 20px 10px 20px;
+}
+
+ol.notlist li{
+text-align:justify;
+font-size: 28px
+}
+
+ol.notlist li a{
+text-align:justify;
+font-size: 28px
+}
+
+h1.nav-header{
+	margin: 2em 1em 0em 0em;
+	text-align: left;
+	line-height: 35px;
+	font-weight: bold;
+	font-size: 36px;
+}
+
+/*--------------------------------*/
+
+div.content{
+	padding: 10px;
+	font-family: opendyslexic;
+	line-height: 35px;
+}
+
+h1.chapter-title{
+	margin: 2em 1em 0em 0em;
+	text-align: center;
+	font-weight: bold;
+	font-size: 36px;
+	color: #008796;}
+
+h1.header-title{
+margin-top: 1em 0em 0em 0em;
+font-family: opendyslexic;
+font-weight: bold;
+font-size: 36px;
+color:#FE0088;
+text-align: center;
+text-decoration: underline;
+}
+
+p.nonindent{
+	font-family: opendyslexic;
+	font-size: 30px;	
+	text-align: left:
+	line-height: 35px;
+}
+
+div.video-container{
+	text-align: center
+}
+
+#container {
+    text-align:center;
+    page-break-inside:avoid;
+}
+#container img {
+  display:inline-block;
+    margin:0 auto;
+}
+
+#centered  {
+    width:100%;
+    text-align:center;
+    page-break-inside:avoid;
+}
+#centered img {
+  display:inline-block;
+    max-height: 100px;
+    margin:0 auto;
+}
+
+.c000000 {
+    background-color: #9E9E9E;
+    color: #000000;
+}
+
+.c000000_darker {
+    background-color: #616161;
+    color: #FFFFFF;
+}
+
+.cD2D3D5,
+.cF3F3F4 {
+    background-color: #9E9E9E;
+    color: #000000;
+}
+
+.cD2D3D5_darker,
+.cF3F3F4_darker {
+    background-color: #616161;
+    color: #FFFFFF;
+}
+
+.cF3BE17 {
+    background-color: #FFC107;
+    color: #000000;
+}
+
+.cF3BE17_darker {
+    background-color: #FFA00B;
+    color: #000000;
+}
+
+.cD8852A {
+    background-color: #FF9800;
+    color: #000000;
+}
+
+.cD8852A_darker {
+    background-color: #F57C00;
+    color: #000000;
+}
+
+.c90B73E {
+    background-color: #FF9800;
+    color: #000000;
+}
+
+.c90B73E_darker {
+    background-color: #F57C00;
+    color: #000000;
+}
+
+.c03A9F4 {
+    background-color: #03A9F4;
+    color: #000000;
+}
+
+.c03A9F4_darker {
+    background-color: #0288D1;
+    color: #000000;
+}
+
+.c89C9CC {
+    background-color: #03A9F4;
+    color: #000000;
+}
+
+.c89C9CC_darker {
+    background-color: #0288D1;
+    color: #000000;
+}
+
+.cB6608E {
+    background-color: #9C27B0;
+    color: #ffffff;
+}
+
+.cB6608E_darker {
+    background-color: #7B1FA2;
+    color: #FFFFFF;
+}
+
+backcover_wrapper {
+    width: 100%;
+    height: 100%;
+    /*position: absolute;*/
+}
+
+.backcover_disclaimer {
+    width: calc(100% - 12vh);
+    left: 0;
+    padding: 6vh;
+    font-size:12px;
+    line-height: 15px;
+    font-weight: 300;
+    text-align: justify;
+}
+
+.backcover_title {
+    font-weight: 400;
+    width: calc(100% - 16vh);
+    background-color: transparent;
+    text-align: center;
+    margin: 2vh 8vh;
+    font-size:16px;
+    line-height: 20px;
+}
+
+.backcover_label {
+    font-weight: 200;
+    font-size:16px;
+    line-height: 20px;
+}
+
+.bookcover_author {
+    font-weight: 300;
+    background-color: transparent;
+    text-align: center;
+    margin: 0px 4vh;
+    font-size:16px;
+    line-height: 20pt;
+}
+
+.backcover_bold {
+    font-weight: 400;
+}
+
+.backcover_copyright {
+    font-weight: 300;
+    margin: 1.6vh 0vh;
+    width: 100%;
+    text-align: center;
+    font-size:14px;
+    line-height: 20px;
+}
+
+a.hlink{
+text-decoration: underline;
+color: #031053;
+-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+#centered1  {
+    width:100%;
+    text-align:center;
+    page-break-inside:avoid;
+}
+#centered1 img {
+    margin:0 auto;
+}
+.sign-video{
+	width:80%;
+}
+
+p.toc{font-size:1.3em;margin-top:3em;margin-bottom:3em;text-align:left;}
+p.pagebreak{page-break-after: always;}
+
+
+/*Questions Section*/
+div.box{
+margin-top:1em;
+margin-left:5em;
+margin-right:5em;
+margin-bottom:1em;
+background:#FEE6EF;
+background:white;
+/*border-radius:25px;
+border: 2px dotted #008796;*/
+padding:0px 5px 5px 5px;
+font-family: opendyslexic;
+line-height: 32px;
+}
+
+h2.questions-title{
+margin-top: 5em 0em 0em 0em;
+text-align: left;
+font-family: opendyslexic;
+font-weight: bold;
+color:#FE0088;
+font-size: 30px;
+}
+
+ol.arabic{
+margin-top: 0em;
+margin-bottom: 0em;
+margin-left: 0em;
+margin-right: 0em;
+list-style-type: number;
+padding: 5px
+}
+
+ol.arabic li{
+text-align:left;
+color:#3698A1;
+font-size: 28px
+}
+
+span.normal{
+	font-size: 28px
+}
+
+/* Glossary Pages and word references*/
+a.reference{
+	font-style: underline;
+	color: black;
+}
+
+/*
+a.g_reference{
+	color: #3698A1;
+	font-weight: bold;
+	text-decoration: none; 
+}
+*/
+
+table.gloss-tbl{
+	font-family: opendyslexic;
+	position: absolute;
+    margin: 10px 10px 10px 10px;
+    padding: 0px 50px 50px 50px;
+    width: 1200px;
+	height: 100%;
+    left: 10px;
+    right: 10px;
+    /*border: solid thick #3698A1;
+    border-radius: 25px;*/
+}
+
+tr.row-def{
+	height: 400px;
+	padding: 20px;
+	border-bottom: 5px solid #3698A1;
+}
+td.col-name{
+	width: 20%;
+	padding: 10px 10px 10px 10px;
+}
+td.col-video{
+	width: 90%;
+	padding: 10px 10px 10px 10px;
+	left: 0px;
+	text-align: center;
+}
+td.col-back{
+	width: 20%;
+	padding: 10px 10px 10px 10px;
+}
+p.word-def{
+	font-family: inherit;
+	font-size: 30px;
+	text-align: left;
+	color:#3698A1;
+}
+.glossary-video{
+	width:600px;
+	height: 270px;
+	
+}
+img.back-icon{
+	background-image: cover;
+	width: 100px;
+	background-color: white;
+}
+a.no-reference{
+	display: none;	
+}
