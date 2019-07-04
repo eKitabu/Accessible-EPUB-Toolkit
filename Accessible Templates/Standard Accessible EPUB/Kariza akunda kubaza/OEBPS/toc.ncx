@@ -12,25 +12,25 @@
   <navMap>
     <navPoint id="nav1" playOrder="1">
       <navLabel>
-        <text>Front Cover</text>
+        <text>Ahabanza</text>
       </navLabel>
       <content src="Text/cover.xhtml"/>
     </navPoint>
     <navPoint id="nav2" playOrder="2">
       <navLabel>
-        <text>Content</text>
+        <text>Ibirim</text>
       </navLabel>
       <content src="Text/nav.xhtml"/>
       <navPoint id="nav3" playOrder="3">
         <navLabel>
-          <text>Chapter 01</text>
+          <text>Umutwe wa mbere</text>
         </navLabel>
         <content src="Text/ch01.xhtml"/>
       </navPoint>
     </navPoint>
     <navPoint id="nav4" playOrder="4">
       <navLabel>
-        <text>Back Cover</text>
+        <text>Ahaheruka</text>
       </navLabel>
       <content src="Text/bcover.xhtml"/>
     </navPoint>

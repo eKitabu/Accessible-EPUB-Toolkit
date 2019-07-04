@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
-<package version="3.0" unique-identifier="uuid_id" prefix="ibooks: http://vocabulary.itunes.apple.com/rdf/ibooks/vocabulary-extensions-1.0/" xmlns="http://www.idpf.org/2007/opf">
-  <metadata xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<package version="3.0" unique-identifier="uuid_id" xmlns="http://www.idpf.org/2007/opf" prefix="ibooks: http://vocabulary.itunes.apple.com/rdf/ibooks/vocabulary-extensions-1.0/">
+  <metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dcterms="http://purl.org/dc/terms/">
     <dc:title>Kariza akunda kubaza</dc:title>
     <dc:creator id="creator01">Jean de Dieu Bavugempore</dc:creator>
-    <meta refines="#creator01" property="role">aut</meta>
-    <meta refines="#creator01" property="file-as">Jean de Dieu Bavugempore</meta>
-    <meta property="dcterms:modified">2019-06-25T08:54:32Z</meta>
+    <meta property="role" refines="#creator01">aut</meta>
+    <meta property="file-as" refines="#creator01">Jean de Dieu Bavugempore</meta>
+    <meta property="dcterms:modified">2019-07-04T12:10:56Z</meta>
     <dc:date>2017</dc:date>
-    <dc:publisher id="en_publisher" xml:lang="en-us">African Storybook</dc:publisher>
+    <dc:publisher xml:lang="en-us" id="en_publisher">African Storybook</dc:publisher>
     <dc:language>rw</dc:language>
     <dc:identifier id="uuid_id">N/A</dc:identifier>
-    <meta refines="#uuid_id" property="identifier-type">N/A</meta>
-    <dc:rights id="en_rights" xml:lang="en">You are free to download, copy, translate or adapt this story and use the illustrations as long as you attribute the author, translator, illustrator and publisher of this publication.</dc:rights>
+    <meta property="identifier-type" refines="#uuid_id">N/A</meta>
+    <dc:rights xml:lang="en" id="en_rights">You are free to download, copy, translate or adapt this story and use the illustrations as long as you attribute the author, translator, illustrator and publisher of this publication.</dc:rights>
     <dc:source>Title: Kariza akunda kubaza, Publisher: African Storybook, Author: Jean de Dieu Bavugempore, Contributor: Rob Owen, Year: 2017, Africa</dc:source>
     <dc:description>Ababyeyi ba Kariza bamutoje kubaza. Gukunda kubaza byatumye Kariza asobanukirwa akamaro ko gukaraba mbere yo kurya,  amenya no gukoresha kandagirukarabe.</dc:description>
     <meta property="ibooks:specified-fonts">true</meta>
@@ -28,7 +28,7 @@
     <meta property="schema:accessModeSufficient">visual</meta>
     <meta property="schema:accessModeSufficient">textual,visual</meta>
     <meta property="schema:accessibilitySummary">This title is a well-marked up and structured book, which is fully accessible. All images have sufficient alt text.</meta>
-    <meta name="Sigil version" content="0.9.13" />
+    <meta content="0.9.13" name="Sigil version" />
   </metadata>
   <manifest>
     <item id="font01" href="Fonts/GillSansMt-Schlbk.ttf" media-type="application/vnd.ms-opentype"/>
