@@ -1,143 +1,141 @@
 <smil xmlns="http://www.w3.org/ns/SMIL" xmlns:epub="http://www.idpf.org/2007/ops" version="3.0">
     <body>
-        <seq id="id1" epub:textref="ch01.xhtml" epub:type="chapter">
-            <!-- Page 1 -->
-            <par id="heading1">
-                <text src="ch01.xhtml#ch01h01"/>
-                <audio src="audio/marions_best_day.mp3" clipBegin="0:00:00.000" clipEnd="0:00:02.211"/>
-            </par>
-            <par id="sentence1">
-                <text src="ch01.xhtml#ch01s0001"/>
-                <audio src="audio/marions_best_day.mp3" clipBegin="0:00:03.957" clipEnd="0:00:07.565"/>
-            </par>
-            <par id="sentence2">
-                <text src="ch01.xhtml#ch01s0002"/>
-                <audio src="audio/marions_best_day.mp3" clipBegin="0:00:07.565" clipEnd="0:00:10.242"/>
-            </par>
-            <par id="sentence3">
-                <text src="ch01.xhtml#ch01s0003"/>
-                <audio src="audio/marions_best_day.mp3" clipBegin="0:00:10.242" clipEnd="0:00:12.454"/>
-            </par>
-            <!-- Page 2 -->
-            <par id="sentence4">
-                <text src="ch01.xhtml#ch01s0004"/>
-                <audio src="audio/marions_best_day.mp3" clipBegin="0:00:13.850" clipEnd="0:00:16.062"/>
-            </par>
-            <par id="sentence5">
-                <text src="ch01.xhtml#ch01s0005"/>
-                <audio src="audio/marions_best_day.mp3" clipBegin="0:00:16.062" clipEnd="0:00:18.971"/>
-            </par>
-            <par id="sentence6">
-                <text src="ch01.xhtml#ch01s0006"/>
-                <audio src="audio/marions_best_day.mp3" clipBegin="0:00:18.971" clipEnd="0:00:22.923"/>
-            </par>
-            <!-- Page 3 -->
-            <par id="sentence7">
-                <text src="ch01.xhtml#ch01s0007"/>
-                <audio src="audio/marions_best_day.mp3" clipBegin="0:00:24.791" clipEnd="0:00:27.933"/>
-            </par>
-            <par id="sentence8">
-                <text src="ch01.xhtml#ch01s0008"/>
-                <audio src="audio/marions_best_day.mp3" clipBegin="0:00:27.933" clipEnd="0:00:30.960"/>
-            </par>
-            <par id="sentence9">
-                <text src="ch01.xhtml#ch01s0009"/>
-                <audio src="audio/marions_best_day.mp3" clipBegin="0:00:30.960" clipEnd="0:00:34.916"/>
-            </par>
-            <!-- Page 4 -->
-            <par id="sentence10">
-                <text src="ch01.xhtml#ch01s0010"/>
-                <audio src="audio/marions_best_day.mp3" clipBegin="0:00:35.731" clipEnd="0:00:43.180"/>
-            </par>
-            <par id="sentence11">
-                <text src="ch01.xhtml#ch01s0011"/>
-                <audio src="audio/marions_best_day.mp3" clipBegin="0:00:43.180" clipEnd="0:00:46.206"/>
-            </par>
-            <par id="sentence12">
-                <text src="ch01.xhtml#ch01s0012"/>
-                <audio src="audio/marions_best_day.mp3" clipBegin="0:00:46.206" clipEnd="0:00:47.835"/>
-            </par>
-            <!-- Page 5 -->
-            <par id="sentence13">
-                <text src="ch01.xhtml#ch01s0013"/>
-                <audio src="audio/marions_best_day.mp3" clipBegin="0:00:48.301" clipEnd="0:00:51.909"/>
-            </par>
-            <par id="sentence14">
-                <text src="ch01.xhtml#ch01s0014"/>
-                <audio src="audio/marions_best_day.mp3" clipBegin="0:00:51.909" clipEnd="0:00:55.401"/>
-            </par>
-            <par id="sentence15">
-                <text src="ch01.xhtml#ch01s0015"/>
-                <audio src="audio/marions_best_day.mp3" clipBegin="0:00:55.401" clipEnd="0:00:58.423"/>
-            </par>
-            <!-- Page 6 -->
-            <par id="sentence16">
-                <text src="ch01.xhtml#ch01s0016"/>
-                <audio src="audio/marions_best_day.mp3" clipBegin="0:00:59.242" clipEnd="0:01:02.151"/>
-            </par>
-            <par id="sentence17">
-                <text src="ch01.xhtml#ch01s0017"/>
-                <audio src="audio/marions_best_day.mp3" clipBegin="0:01:02.151" clipEnd="0:01:04.595"/>
-            </par>
-            <par id="sentence18">
-                <text src="ch01.xhtml#ch01s0018"/>
-                <audio src="audio/marions_best_day.mp3" clipBegin="0:01:04.595" clipEnd="0:01:07.971"/>
-            </par>
-            <par id="sentence19">
-                <text src="ch01.xhtml#ch01s0019"/>
-                <audio src="audio/marions_best_day.mp3" clipBegin="0:01:07.971" clipEnd="0:01:09.716"/>
-            </par>
-            <!-- Page 7 -->
-            <par id="sentence20">
-                <text src="ch01.xhtml#ch01s0020"/>
-                <audio src="audio/marions_best_day.mp3" clipBegin="0:01:10.298" clipEnd="0:01:15.187"/>
-            </par>
-            <par id="sentence21">
-                <text src="ch01.xhtml#ch01s0021"/>
-                <audio src="audio/marions_best_day.mp3" clipBegin="0:01:15.187" clipEnd="0:01:18.562"/>
-            </par>
-            <par id="sentence22">
-                <text src="ch01.xhtml#ch01s0022"/>
-                <audio src="audio/marions_best_day.mp3" clipBegin="0:01:18.562" clipEnd="0:01:21.472"/>
-            </par>
-            <!-- Page 8 -->
-            <par id="sentence23">
-                <text src="ch01.xhtml#ch01s0023"/>
-                <audio src="audio/marions_best_day.mp3" clipBegin="0:01:22.403" clipEnd="0:01:31.481"/>
-            </par>
-            <par id="sentence24">
-                <text src="ch01.xhtml#ch01s0024"/>
-                <audio src="audio/marions_best_day.mp3" clipBegin="0:01:31.481" clipEnd="0:01:34.391"/>
-            </par>
-            <par id="sentence25">
-                <text src="ch01.xhtml#ch01s0025"/>
-                <audio src="audio/marions_best_day.mp3" clipBegin="0:01:34.391" clipEnd="0:01:37.300"/>
-            </par>
-            <!-- Questions -->
-            <par id="qheader1">
-                <text src="ch01.xhtml#ch01qh01"/>
-                <audio src="audio/marions_best_day.mp3" clipBegin="0:01:37.300" clipEnd="0:01:38.697"/>
-            </par>
-            <par id="question1">
-                <text src="ch01.xhtml#ch01q0001"/>
-                <audio src="audio/marions_best_day.mp3" clipBegin="0:01:38.697" clipEnd="0:01:42.072"/>
-            </par>
-            <par id="question2">
-                <text src="ch01.xhtml#ch01q0002"/>
-                <audio src="audio/marions_best_day.mp3" clipBegin="0:01:42.072" clipEnd="0:01:46.146"/>
-            </par>
-            <par id="question3">
-                <text src="ch01.xhtml#ch01q0003"/>
-                <audio src="audio/marions_best_day.mp3" clipBegin="0:01:46.146" clipEnd="0:01:50.103"/>
-            </par>
-            <par id="question4">
-                <text src="ch01.xhtml#ch01q0004"/>
-                <audio src="audio/marions_best_day.mp3" clipBegin="0:01:50.103" clipEnd="0:01:53.944"/>
-            </par>
-            <par id="question5">
-                <text src="ch01.xhtml#ch01q0005"/>
-                <audio src="audio/marions_best_day.mp3" clipBegin="0:01:53.944" clipEnd="0:01:58.134"/>
-            </par>
-        </seq>
+        <!-- Page 1 -->
+        <par id="heading1">
+            <text src="ch01.xhtml#ch01h01"/>
+            <audio src="audio/marions_best_day.mp3" clipBegin="0:00:00.000" clipEnd="0:00:02.211"/>
+        </par>
+        <par id="sentence1">
+            <text src="ch01.xhtml#ch01s0001"/>
+            <audio src="audio/marions_best_day.mp3" clipBegin="0:00:03.957" clipEnd="0:00:07.565"/>
+        </par>
+        <par id="sentence2">
+            <text src="ch01.xhtml#ch01s0002"/>
+            <audio src="audio/marions_best_day.mp3" clipBegin="0:00:07.565" clipEnd="0:00:10.242"/>
+        </par>
+        <par id="sentence3">
+            <text src="ch01.xhtml#ch01s0003"/>
+            <audio src="audio/marions_best_day.mp3" clipBegin="0:00:10.242" clipEnd="0:00:12.454"/>
+        </par>
+        <!-- Page 2 -->
+        <par id="sentence4">
+            <text src="ch01.xhtml#ch01s0004"/>
+            <audio src="audio/marions_best_day.mp3" clipBegin="0:00:13.850" clipEnd="0:00:16.062"/>
+        </par>
+        <par id="sentence5">
+            <text src="ch01.xhtml#ch01s0005"/>
+            <audio src="audio/marions_best_day.mp3" clipBegin="0:00:16.062" clipEnd="0:00:18.971"/>
+        </par>
+        <par id="sentence6">
+            <text src="ch01.xhtml#ch01s0006"/>
+            <audio src="audio/marions_best_day.mp3" clipBegin="0:00:18.971" clipEnd="0:00:22.923"/>
+        </par>
+        <!-- Page 3 -->
+        <par id="sentence7">
+            <text src="ch01.xhtml#ch01s0007"/>
+            <audio src="audio/marions_best_day.mp3" clipBegin="0:00:24.791" clipEnd="0:00:27.933"/>
+        </par>
+        <par id="sentence8">
+            <text src="ch01.xhtml#ch01s0008"/>
+            <audio src="audio/marions_best_day.mp3" clipBegin="0:00:27.933" clipEnd="0:00:30.960"/>
+        </par>
+        <par id="sentence9">
+            <text src="ch01.xhtml#ch01s0009"/>
+            <audio src="audio/marions_best_day.mp3" clipBegin="0:00:30.960" clipEnd="0:00:34.916"/>
+        </par>
+        <!-- Page 4 -->
+        <par id="sentence10">
+            <text src="ch01.xhtml#ch01s0010"/>
+            <audio src="audio/marions_best_day.mp3" clipBegin="0:00:35.731" clipEnd="0:00:43.180"/>
+        </par>
+        <par id="sentence11">
+            <text src="ch01.xhtml#ch01s0011"/>
+            <audio src="audio/marions_best_day.mp3" clipBegin="0:00:43.180" clipEnd="0:00:46.206"/>
+        </par>
+        <par id="sentence12">
+            <text src="ch01.xhtml#ch01s0012"/>
+            <audio src="audio/marions_best_day.mp3" clipBegin="0:00:46.206" clipEnd="0:00:47.835"/>
+        </par>
+        <!-- Page 5 -->
+        <par id="sentence13">
+            <text src="ch01.xhtml#ch01s0013"/>
+            <audio src="audio/marions_best_day.mp3" clipBegin="0:00:48.301" clipEnd="0:00:51.909"/>
+        </par>
+        <par id="sentence14">
+            <text src="ch01.xhtml#ch01s0014"/>
+            <audio src="audio/marions_best_day.mp3" clipBegin="0:00:51.909" clipEnd="0:00:55.401"/>
+        </par>
+        <par id="sentence15">
+            <text src="ch01.xhtml#ch01s0015"/>
+            <audio src="audio/marions_best_day.mp3" clipBegin="0:00:55.401" clipEnd="0:00:58.423"/>
+        </par>
+        <!-- Page 6 -->
+        <par id="sentence16">
+            <text src="ch01.xhtml#ch01s0016"/>
+            <audio src="audio/marions_best_day.mp3" clipBegin="0:00:59.242" clipEnd="0:01:02.151"/>
+        </par>
+        <par id="sentence17">
+            <text src="ch01.xhtml#ch01s0017"/>
+            <audio src="audio/marions_best_day.mp3" clipBegin="0:01:02.151" clipEnd="0:01:04.595"/>
+        </par>
+        <par id="sentence18">
+            <text src="ch01.xhtml#ch01s0018"/>
+            <audio src="audio/marions_best_day.mp3" clipBegin="0:01:04.595" clipEnd="0:01:07.971"/>
+        </par>
+        <par id="sentence19">
+            <text src="ch01.xhtml#ch01s0019"/>
+            <audio src="audio/marions_best_day.mp3" clipBegin="0:01:07.971" clipEnd="0:01:09.716"/>
+        </par>
+        <!-- Page 7 -->
+        <par id="sentence20">
+            <text src="ch01.xhtml#ch01s0020"/>
+            <audio src="audio/marions_best_day.mp3" clipBegin="0:01:10.298" clipEnd="0:01:15.187"/>
+        </par>
+        <par id="sentence21">
+            <text src="ch01.xhtml#ch01s0021"/>
+            <audio src="audio/marions_best_day.mp3" clipBegin="0:01:15.187" clipEnd="0:01:18.562"/>
+        </par>
+        <par id="sentence22">
+            <text src="ch01.xhtml#ch01s0022"/>
+            <audio src="audio/marions_best_day.mp3" clipBegin="0:01:18.562" clipEnd="0:01:21.472"/>
+        </par>
+        <!-- Page 8 -->
+        <par id="sentence23">
+            <text src="ch01.xhtml#ch01s0023"/>
+            <audio src="audio/marions_best_day.mp3" clipBegin="0:01:22.403" clipEnd="0:01:31.481"/>
+        </par>
+        <par id="sentence24">
+            <text src="ch01.xhtml#ch01s0024"/>
+            <audio src="audio/marions_best_day.mp3" clipBegin="0:01:31.481" clipEnd="0:01:34.391"/>
+        </par>
+        <par id="sentence25">
+            <text src="ch01.xhtml#ch01s0025"/>
+            <audio src="audio/marions_best_day.mp3" clipBegin="0:01:34.391" clipEnd="0:01:37.300"/>
+        </par>
+        <!-- Questions -->
+        <par id="qheader1">
+            <text src="ch01.xhtml#ch01qh01"/>
+            <audio src="audio/marions_best_day.mp3" clipBegin="0:01:37.300" clipEnd="0:01:38.697"/>
+        </par>
+        <par id="question1">
+            <text src="ch01.xhtml#ch01q0001"/>
+            <audio src="audio/marions_best_day.mp3" clipBegin="0:01:38.697" clipEnd="0:01:42.072"/>
+        </par>
+        <par id="question2">
+            <text src="ch01.xhtml#ch01q0002"/>
+            <audio src="audio/marions_best_day.mp3" clipBegin="0:01:42.072" clipEnd="0:01:46.146"/>
+        </par>
+        <par id="question3">
+            <text src="ch01.xhtml#ch01q0003"/>
+            <audio src="audio/marions_best_day.mp3" clipBegin="0:01:46.146" clipEnd="0:01:50.103"/>
+        </par>
+        <par id="question4">
+            <text src="ch01.xhtml#ch01q0004"/>
+            <audio src="audio/marions_best_day.mp3" clipBegin="0:01:50.103" clipEnd="0:01:53.944"/>
+        </par>
+        <par id="question5">
+            <text src="ch01.xhtml#ch01q0005"/>
+            <audio src="audio/marions_best_day.mp3" clipBegin="0:01:53.944" clipEnd="0:01:58.134"/>
+        </par>
     </body>
 </smil>
